@@ -12,12 +12,14 @@ function painttodo(newTodo){
     const li = document.createElement("li");
     const span = document.createElement("span");
     const button = document.createElement("button");
-    button.innerText="X";
+    button.className="button";
+    button.innerText="❌";
     li.appendChild(span);
     li.appendChild(button);
     button.addEventListener("click", handledelete);
     li.id=newTodo.id;
-    span.innerText = newTodo.text;
+    li.className="todoitem";
+    span.innerText = "🍍 "+newTodo.text;
     todoList.appendChild(li);
 }
 

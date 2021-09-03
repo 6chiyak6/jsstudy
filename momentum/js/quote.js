@@ -1,11 +1,7 @@
 const quotes = [
     {
-      quote: "The way to get started is to quit talking and begin doing.",
-      author: "Walt Disney",
-    },
-    {
-      quote: "Life is what happens when you're busy making other plans.",
-      author: "John Lennon",
+      quote: "If I know what love is, it is because of you.",
+      author: "Hermann Hesse",
     },
     {
       quote:
@@ -13,33 +9,66 @@ const quotes = [
       author: "Saint Augustine",
     },
     {
-      quote: "Life is either a daring adventure or nothing at all.",
-      author: "Helen Keller",
+      quote: "I swear I couldn’t love you more than I do right now, and yet I know I will tomorrow",
+      author: "Leo Christopher",
     },
     {
-      quote: "To Travel is to Live",
-      author: "Hans Christian Andersen",
+      quote: "You make me want to be a better man.",
+      author: "Melvin Udall",
     },
     {
-      quote: "Only a life lived for others is a life worthwhile.",
-      author: "Albert Einstein",
+      quote: "You know you’re in love when you can’t fall asleep because reality is finally better than your dreams.",
+      author: "Dr. Seuss",
     },
     {
-      quote: "You only live once, but if you do it right, once is enough.",
-      author: "Mae West",
+      quote: "I would rather spend one lifetime with you, than face all the ages of this world alone.",
+      author: "J.R.R. Tolkien",
     },
     {
-      quote: "Never go on trips with anyone you do ntot love.",
-      author: "Hemmingway",
+      quote: "Romance is the glamour which turns the dust of everyday life into a golden haze.",
+      author: "Elinor Glyn",
     },
     {
-      quote: "We wander for distraction, but we travel for fulfilment.",
-      author: "Hilaire Belloc",
+      quote: "Love has nothing to do with what you are expecting to get–only with what you are expecting to give–which is everything",
+      author: "Katharine Hepburn",
     },
     {
-      quote: "Travel expands the mind and fills the gap.",
-      author: "Sheda Savage",
+      quote: "When you realize you want to spend the rest of your life with somebody, you want the rest of your life to start as soon as possible.",
+      author: "Nora Ephron",
     },
+    {
+      quote: "Love is an irresistible desire to be irresistibly desired.",
+      author: "Robert Frost",
+    },
+    {
+      quote: "The only thing we never get enough of is love; and the only thing we never give enough of is love",
+      author: "Henry Miller",
+    },
+    {
+      quote: "When you realize you want to spend the rest of your life with somebody, you want the rest of your life to start as soon as possible.",
+      author: "Nora Ephron",
+    },
+    {
+      quote: "It is the time you have wasted for your rose that makes your rose so important.",
+      author: "Antoine de Saint-Exupéry",
+    },
+    {
+      quote: "You become responsible, forever, for what you have tamed.",
+      author: "Antoine de Saint-Exupéry",
+    },
+    {
+      quote: "But if you tame me, then we shall need each other. To me, you will be unique in all the world. To you, I shall be unique in all the world",
+      author: "Antoine de Saint-Exupéry",
+    },
+    {
+      quote: "Hi my love I found all these quotes thinking about you. dreaming to tell you these words. I love you",
+      author: "Your Loved one",
+    },
+    {
+      quote: "And, when you want something, all the universe conspires in helping you to achieve it.",
+      author: "paulo coelho",
+    },
+    
   ];
   
   const quote = document.querySelector("#quote span:first-child");

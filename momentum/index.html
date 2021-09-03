@@ -9,7 +9,7 @@
 
     </head>
     <body class ="body">
-        <h2 id="clock"></h2>
+        <h2  class="clock" id="clock"></h2>
         <form class = "hidden" id="login-form">
          <input 
             required
@@ -17,19 +17,18 @@
             type="text" 
             placeholder="What is your name?">
         </form>
-        <h1 id = "greeting" class="hidden"></h1>
+        <h1 id = "greeting" class="hidden greeting"></h1>
         <form id="todo">
             <input type="text" placeholder="things  to  do">
         </form>
-        <ul id="todoList"></ul>
-        <div id="quote">
+        <ul class="todolist" id="todoList"></ul>
+        <div class="quote" id="quote">
             <span></span>
             <span></span>
         </div>
         <script src="js/quote.js"></script>
         <script src="js/greetings.js"></script>
         <script src="js/clock.js"></script>
-        <script src="js/background.js"></script>
         <script src="js/todo.js"></script>
     </body>
 </html>

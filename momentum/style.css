@@ -3,3 +3,38 @@
 .hidden {
     display: none;
 }
+body{
+    background-image: url("img/3.jpg");
+}
+.body{
+    display:flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+.clock{
+    color: beige;
+    font-size: 150px;
+    margin-block-end: 0px;
+}
+.greeting{
+    color: beige;
+    font-size: 70px;
+}
+.todolist{
+    padding-left: 0px;
+    width: 177px;
+    color: beige;
+}
+.todoitem{
+     display: flex;
+    width: 177px;
+    flex-direction: row; 
+    justify-content: space-between;
+}
+
+.quote{
+    color: beige;
+}

@@ -20,7 +20,13 @@ function handleClickLink(event){
 }
 function paintGreeings(savedname){
     greeting.classList.remove(HIDDEN_CLASSNAME);
-    greeting.innerText = `Hello ${savedname}`;
+    if(savedname==="hannah"||savedname==="김혜나"||savedname==="혜나"||savedname==="Hannah"){
+        greeting.innerText = `Hello My Love ${savedname}`;
+
+    }
+    else{
+        greeting.innerText = `Hello ${savedname}`;
+    }
 }
 const savedname = localStorage.getItem(USERNAME_KEY);
 if ( savedname === null){
